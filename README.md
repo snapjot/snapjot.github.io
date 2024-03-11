@@ -1,0 +1,1 @@
+Source for the website found at [snapjot.app](https://snapjot.app/).

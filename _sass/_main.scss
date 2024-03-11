@@ -1,0 +1,9 @@
+html {
+    background-color: $background-color;
+    color: $color-primary;
+}
+
+main {
+    @extend .width;
+    @extend .clearfix;
+}

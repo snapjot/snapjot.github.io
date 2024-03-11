@@ -1,0 +1,16 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.width {
+    max-width: 34rem;
+    padding: 0 $measure;
+    margin: 0 auto;
+    position: relative;
+  
+    @media screen and (max-width: $breakpoint-small) {
+        padding: 0 calc($measure / 2)
+    }
+}
